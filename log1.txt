@@ -1,0 +1,1 @@
+If Shipment stages [0].status === "COMPLETED" && shipment.trackingStatus === "Enroute for Delivery" then only map the payload
