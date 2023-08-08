@@ -91,56 +91,31 @@ async function main() {
 
             const payload = {
                 "shipmentId": items.uuid,
-
                 "updates": [{
-
                     "keyToUpdate": "customfields",
-
                     "updatedValue": [{
-
                         "fieldKey": "Quantity",
-
                         "valueType": "string",
-
                         "fieldType": "text",
-
                         "value": Quantity_To_Take.toString(),
-
                     }, {
-
                         "fieldKey": "Document Number",
-
                         "valueType": "string",
-
                         "fieldType": "text",
-
                         "value": docnumber,
-
                     },
                     {
-
                         "fieldKey": "Document Date",
-
                         "valueType": "string",
-
                         "fieldType": "text",
-
                         "value": DocDate,
-
                     }, {
-
                         "fieldKey": "Allowed Load Type",
-
                         "valueType": "string",
-
                         "fieldType": "text",
-
                         "value": allowedloadtype,
-
                     }]
-
                 }]
-
             }
 
             await bulkSyncApi(payload, token)

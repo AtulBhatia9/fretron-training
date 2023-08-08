@@ -1,0 +1,667 @@
+{
+    "amount": null,
+    "rateValueRuleId": null,
+    "isCalculated": true,
+    "baseValueRuleId": null,
+    "rateUnit": "perKM",
+    "amountValueRuleId": null,
+    "vendorFeedingType": "User",
+    "chargeApplicableFor": null,
+    "chargeBillingType": [],
+    "baseValueFeedingType": "User",
+    "distributionBasis": "Weight",
+    "amountFeedingType": "User",
+    "rate": 108,
+    "chargeId": "6e63d9a5-22c9-45fc-accd-baae889ceab2",
+    "vendor": null,
+    "applicability": "Shipment",
+    "chargeName": "Fuel Charge",
+    "rateFeedingType": "Fixed",
+    "base": null,
+    "vendorRuleId": null
+}
+/////////////////////////////
+{
+    "shipmentCost": {
+        "amount": 54000,
+        "charge": {
+            "amount": 54000,
+            "amountByVendor": null,
+            "rate": 108,
+            "billingType": [
+                "VendorBill",
+                "Invoice",
+                "DebitNote",
+                "CreditNote"
+            ],
+            "chartsOfAccount": {
+                "internal": false,
+                "documents": [],
+                "accountGroup": "Expense",
+                "name": "Cost of Goods Sold",
+                "description": "An expense account which tracks the value of the goods sold.",
+                "active": true,
+                "systemAccount": true,
+                "accountPath": [
+                    "Expense",
+                    "Cost Of Goods Sold",
+                    "costofgoodssold"
+                ],
+                "type": "Cost Of Goods Sold",
+                "uuid": "costofgoodssold",
+                "orgId": "fretron_system_god"
+            },
+            "name": "Fuel Charge",
+            "rateUnit": "perKM",
+            "uuid": "6e63d9a5-22c9-45fc-accd-baae889ceab2",
+            "base": "500",
+            "applicableFor": null
+        },
+        "billItemId": null,
+        "billFeedingType": null,
+        "updates": null,
+        "uuid": "e969696f-ab85-4ef4-bb22-da68286eb492",
+        "orgId": "e13180e7-f849-4568-ad7e-1a237a1a8fb3",
+        "lineItems": [],
+        "distributionBasis": "Weight",
+        "shipmentId": "5950c455-fcde-4ad9-873c-c1c91a5031a6",
+        "vendor": {
+            "address": "{\"pincode\":\"\",\"address\":\"Kohima, Nagaland, India\",\"city\":\"\",\"state\":\"\"}",
+            "customFields": [
+                {
+                    "fieldKey": "totalPlacementPendingV2",
+                    "value": "0"
+                }
+            ],
+            "isPortalEnabled": false,
+            "externalId": "0020338867",
+            "panNumber": null,
+            "type": "vendor",
+            "uuid": "2ca57e40-9bf3-46da-aa50-07f19d6f09c4",
+            "parentId": null,
+            "places": [
+                {
+                    "center": {
+                        "latitude": 25.6752553,
+                        "longitude": 94.1085781
+                    },
+                    "centerCoordinates": [
+                        94.1085781,
+                        25.6752553
+                    ],
+                    "placeId": "9ce1e758-bf6d-41f2-8bfc-26a53ae67db9",
+                    "name": "KOHIMA",
+                    "externalId": null,
+                    "category": "Hub"
+                }
+            ],
+            "gstn": null,
+            "name": "MOBINA DAWOOD",
+            "contacts": [
+                {
+                    "emails": [],
+                    "address": null,
+                    "mobileNumbers": [
+                        "9111111111"
+                    ],
+                    "mobileNumber": null,
+                    "name": "MOBINA DAWOOD",
+                    "type": null
+                }
+            ],
+            "group": {
+                "name": "lorryOwner"
+            },
+            "status": "ACTIVE"
+        },
+        "billId": null,
+        "billStatus": null,
+        "applicability": "Shipment"
+    },
+    "chargeSetting": {
+        "amount": null,
+        "rateValueRuleId": null,
+        "isCalculated": true,
+        "baseValueRuleId": null,
+        "rateUnit": "perKM",
+        "amountValueRuleId": null,
+        "vendorFeedingType": "User",
+        "chargeApplicableFor": null,
+        "chargeBillingType": [],
+        "baseValueFeedingType": "User",
+        "distributionBasis": "Weight",
+        "amountFeedingType": "User",
+        "rate": 108,
+        "chargeId": "6e63d9a5-22c9-45fc-accd-baae889ceab2",
+        "vendor": null,
+        "applicability": "Shipment",
+        "chargeName": "Fuel Charge",
+        "rateFeedingType": "Fixed",
+        "base": null,
+        "vendorRuleId": null
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+charge setting
+{
+    "amount": null,
+    "rateValueRuleId": null,
+    "isCalculated": true,
+    "baseValueRuleId": null,
+    "rateUnit": "perKM",
+    "amountValueRuleId": null,
+    "vendorFeedingType": "User",
+    "chargeApplicableFor": null,
+    "chargeBillingType": [],
+    "baseValueFeedingType": "User",
+    "distributionBasis": "Weight",
+    "amountFeedingType": "User",
+    "rate": 108,
+    "chargeId": "6e63d9a5-22c9-45fc-accd-baae889ceab2",
+    "vendor": null,
+    "applicability": "Shipment",
+    "chargeName": "Fuel Charge",
+    "rateFeedingType": "Fixed",
+    "base": null,
+    "vendorRuleId": null
+}
+
+shipment Cost
+{
+    "amount": 5400,
+    "charge": {
+        "amount": 5400,
+        "amountByVendor": null,
+        "rate": 108,
+        "billingType": [
+            "VendorBill",
+            "Invoice",
+            "DebitNote",
+            "CreditNote"
+        ],
+        "chartsOfAccount": {
+            "internal": false,
+            "documents": [],
+            "accountGroup": "Income",
+            "name": "Sales",
+            "active": true,
+            "systemAccount": true,
+            "accountPath": [
+                "Income",
+                "Income",
+                "sales"
+            ],
+            "type": "Income",
+            "uuid": "sales",
+            "orgId": "fretron_system_god"
+        },
+        "name": "Fuel Charge",
+        "rateUnit": "perKM",
+        "uuid": "6e63d9a5-22c9-45fc-accd-baae889ceab2",
+        "base": "50",
+        "applicableFor": null
+    },
+    "billItemId": null,
+    "billFeedingType": null,
+    "updates": null,
+    "uuid": "2c8f03cd-93ce-4f43-a6ae-1b5a66111942",
+    "orgId": "e13180e7-f849-4568-ad7e-1a237a1a8fb3",
+    "lineItems": [],
+    "distributionBasis": "Weight",
+    "shipmentId": "49310349-205c-4b3d-8693-9c6d0efbd78e",
+    "vendor": {
+        "address": "{\"pincode\":\"\",\"address\":\"Kohima, Nagaland, India\",\"city\":\"\",\"state\":\"\"}",
+        "customFields": [
+            {
+                "fieldKey": "totalPlacementPendingV2",
+                "value": "0"
+            }
+        ],
+        "isPortalEnabled": false,
+        "externalId": "0020338867",
+        "panNumber": null,
+        "type": "vendor",
+        "uuid": "2ca57e40-9bf3-46da-aa50-07f19d6f09c4",
+        "parentId": null,
+        "places": [
+            {
+                "center": {
+                    "latitude": 25.6752553,
+                    "longitude": 94.1085781
+                },
+                "centerCoordinates": [
+                    94.1085781,
+                    25.6752553
+                ],
+                "placeId": "9ce1e758-bf6d-41f2-8bfc-26a53ae67db9",
+                "name": "KOHIMA",
+                "externalId": null,
+                "category": "Hub"
+            }
+        ],
+        "gstn": null,
+        "name": "MOBINA DAWOOD",
+        "contacts": [
+            {
+                "emails": [],
+                "address": null,
+                "mobileNumbers": [
+                    "9111111111"
+                ],
+                "mobileNumber": null,
+                "name": "MOBINA DAWOOD",
+                "type": null
+            }
+        ],
+        "group": {
+            "name": "lorryOwner"
+        },
+        "status": "ACTIVE"
+    },
+    "billId": null,
+    "billStatus": null,
+    "applicability": "Shipment"
+}
+/////////////////////////////////////////////////////////////////////
+[
+    {
+        "amount": 5400,
+        "charge": {
+            "amount": 5400,
+            "amountByVendor": null,
+            "rate": 108,
+            "billingType": [
+                "VendorBill",
+                "Invoice",
+                "DebitNote",
+                "CreditNote"
+            ],
+            "chartsOfAccount": {
+                "name": "Sales",
+                "accountGroup": "Income",
+                "type": "Income",
+                "accountPath": [
+                    "Income",
+                    "Income",
+                    "sales"
+                ],
+                "uuid": "sales"
+            },
+            "name": "Fuel Charge",
+            "rateUnit": "perKM",
+            "uuid": "6e63d9a5-22c9-45fc-accd-baae889ceab2",
+            "base": 50,
+            "applicableFor": null
+        },
+        "billItemId": null,
+        "billFeedingType": null,
+        "updates": {
+            "traceID": "be6aec54-b5ff-40cf-8fa8-3e96e3ae7f28",
+            "resourceId": "1b7f96fa-1c83-498e-a74a-98a7fd42f2eb",
+            "updatedBy": "USER",
+            "changes": [
+                {
+                    "lastValue": "COA: Sales| amt: 5400.0| rate: 108.0| base: 50.0| vendor: MOBINA DAWOOD",
+                    "fieldName": "ShipmentCost",
+                    "fieldType": "String",
+                    "currentValue": "COA: Sales| amt: 5400.0| rate: 108.0| base: 50.0| vendor: MOBINA DAWOOD"
+                }
+            ],
+            "sourceOfInformation": null,
+            "description": "Updated Charge Fuel Charge",
+            "forwardReasons": [],
+            "userId": "75277562-d8ad-4c7a-9ef2-edab10082d91",
+            "uuid": "f5afc8ad-f6be-43e8-994d-a92827cea001",
+            "revision": 2,
+            "time": 1687158094359,
+            "forwardedFrom": null,
+            "resourceType": "ShipmentCost",
+            "updateType": null
+        },
+        "uuid": "2c8f03cd-93ce-4f43-a6ae-1b5a66111942",
+        "orgId": "e13180e7-f849-4568-ad7e-1a237a1a8fb3",
+        "lineItems": [],
+        "distributionBasis": "Weight",
+        "shipmentId": "1b7f96fa-1c83-498e-a74a-98a7fd42f2eb",
+        "vendor": {
+            "gstn": null,
+            "name": "MOBINA DAWOOD",
+            "externalId": "0020338867",
+            "type": "vendor",
+            "uuid": "2ca57e40-9bf3-46da-aa50-07f19d6f09c4",
+            "group": {
+                "name": "lorryOwner",
+                "partnerType": null,
+                "uuid": null,
+                "orgId": null
+            }
+        },
+        "billId": null,
+        "billStatus": null,
+        "applicability": "Shipment"
+    }
+]
+/////////////////////////////////////////
+const filteredData = data.filter(obj => obj.charge?.name === "Fuel Charge");
+    if (filteredData.length > 0) {
+      const filteredAmount = filteredData[0].amount ?? 0;
+      console.log(filteredAmount);
+
+      if (filteredAmount !== result) {
+        // Call the API to update the amount
+        await saveShipmentCost(shipmentCost, chargePayload, shipmentID);
+      } else {
+        console.log("Amounts are equal. No update required.");
+      }
+    } else {
+      console.log("No data found for the specified charge name.");
+    }
+//////////////////////////////////////////////////////???///////////////////
+{
+    "uuid": null,
+    "billDate": 1687180360898,
+    "billNumber": "123456",
+    "billFeedingType": "PerShipment",
+    "billingStatus": null,
+    "amount": null,
+    "amountByVendor": null,
+    "status": null,
+    "documents": [],
+    "vendor": {
+        "geoFence": null,
+        "documents": null,
+        "customFields": [
+            {
+                "indexedValue": [
+                    "totalPlacementPendingV2_0"
+                ],
+                "fieldKey": "totalPlacementPendingV2",
+                "multiple": false,
+                "description": null,
+                "remark": null,
+                "uuid": null,
+                "required": false,
+                "accessType": null,
+                "input": "String",
+                "unit": null,
+                "valueType": "String",
+                "options": null,
+                "fieldType": "text",
+                "value": "0",
+                "isRemark": false
+            }
+        ],
+        "isPortalEnabled": false,
+        "type": "vendor",
+        "updates": {
+            "traceID": "859fa53d-16c6-47ac-8515-ca4778955a7f",
+            "resourceId": "2ca57e40-9bf3-46da-aa50-07f19d6f09c4",
+            "updatedBy": "SYSTEM",
+            "changes": [
+                {
+                    "lastValue": "1",
+                    "fieldName": "totalPlacementPendingV2",
+                    "fieldType": "String",
+                    "currentValue": "0"
+                }
+            ],
+            "sourceOfInformation": null,
+            "description": "updated field totalPlacementPendingV2",
+            "forwardReasons": [
+                "business.partner.update.event",
+                "business.partner.custom.field"
+            ],
+            "userId": null,
+            "uuid": "d432ca9c-129f-488c-b540-1b0805e49240",
+            "revision": null,
+            "time": 1674466298551,
+            "forwardedFrom": null,
+            "resourceType": "Business-Partner",
+            "updateType": null
+        },
+        "uuid": "2ca57e40-9bf3-46da-aa50-07f19d6f09c4",
+        "orgId": "e13180e7-f849-4568-ad7e-1a237a1a8fb3",
+        "firmType": null,
+        "gstn": null,
+        "voterId": null,
+        "verificationTicketId": null,
+        "group": {
+            "name": "lorryOwner",
+            "partnerType": "vendor",
+            "uuid": "6ff4b0fa-7bf7-4448-94ef-66e06090c6ad",
+            "orgId": "ece8dcee-f942-4f16-af3a-186fd0977b0d"
+        },
+        "address": "{\"pincode\":\"\",\"address\":\"Kohima, Nagaland, India\",\"city\":\"\",\"state\":\"\"}",
+        "verificationStatus": "unverified",
+        "externalId": "0020338867",
+        "panNumber": null,
+        "aadharNo": null,
+        "parentId": null,
+        "places": [
+            {
+                "hubId": null,
+                "boundary": null,
+                "address": "Kohima, Nagaland, India",
+                "accessibility": "private",
+                "addedBy": "ece8dcee-f942-4f16-af3a-186fd0977b0d",
+                "center": {
+                    "latitude": 25.6752553,
+                    "longitude": 94.1085781
+                },
+                "suggestedRadius": 3326.5993351234747,
+                "isOwned": null,
+                "centerCoordinates": [
+                    94.1085781,
+                    25.6752553
+                ],
+                "placeId": "9ce1e758-bf6d-41f2-8bfc-26a53ae67db9",
+                "geoJsonBoundry": null,
+                "externalId": null,
+                "source": "GOOGLE",
+                "places": [],
+                "viewport": {
+                    "southwest": {
+                        "latitude": 25.6487998,
+                        "longitude": 94.0875149
+                    },
+                    "northeast": {
+                        "latitude": 25.7006286,
+                        "longitude": 94.1260958
+                    }
+                },
+                "district": null,
+                "name": "KOHIMA",
+                "state": null,
+                "category": "Hub",
+                "subDistrict": null
+            }
+        ],
+        "route": [],
+        "name": "MOBINA DAWOOD",
+        "location": null,
+        "fretronId": null,
+        "contacts": [
+            {
+                "emails": [],
+                "address": null,
+                "mobileNumbers": [
+                    "9111111111"
+                ],
+                "mobileNumber": null,
+                "name": "MOBINA DAWOOD",
+                "type": null
+            }
+        ],
+        "status": "ACTIVE"
+    },
+    "onHoldReason": null,
+    "lineItems": [],
+    "customFields": [],
+    "ticketId": null,
+    "tax": null,
+    "billingBranch": {
+        "address": ",Gorakhpur,Uttar Pradesh,India,in",
+        "regionName": "IGL GORAKHPUR PLANT",
+        "externalId": null,
+        "branchName": null,
+        "type": [
+            "Liqour Factory"
+        ],
+        "orgId": "e13180e7-f849-4568-ad7e-1a237a1a8fb3",
+        "areaId": null,
+        "geoLocation": [
+            83.36457243864551,
+            26.6711433
+        ],
+        "regionId": "f5eb3c54-0a35-4d33-aa27-f10ef2e150de",
+        "areaName": null,
+        "name": "INDIA GLYCOLS LTD",
+        "zoneId": "d9e494a9-757d-4632-8694-4628058559c4",
+        "_id": "5a193639-c0ee-4c1d-8a1f-d9fcee74be90",
+        "zoneName": "GORAKHPUR",
+        "contacts": [],
+        "officeType": null
+    }
+}
+/////////////////////////////////////////////////////////////////////////////////
+https://apis.fretron.com/shipment-cost/v1/vendor/bill
+
+///////////////////////////////////////////////////////////////
+{
+    "shipmentId": "a3b227cb-9b4f-4c41-bce4-4cdfc46cc188",
+    "updates": [
+        {
+            "keyToUpdate": "customfields",
+            "updatedValue": [
+                {
+                    "indexedValue": [],
+                    "fieldKey": "Shipment custom field",
+                    "multiple": false,
+                    "description": "",
+                    "remark": "",
+                    "uuid": "13284877-49a1-4622-bbe3-669caa92f163",
+                    "required": false,
+                    "accessType": null,
+                    "input": "string",
+                    "unit": "",
+                    "valueType": "string",
+                    "options": [],
+                    "fieldType": "text",
+                    "value": "123456",
+                    "isRemark": false,
+                    "isModified": true
+                }
+            ]
+        }
+    ]
+}
+//////////////////////////////////////////////
+mark arrived payload
+{
+    "shipmentId": "6ba4506d-18e5-42d7-a9a8-651296c00a80",
+    "updates": [
+        {
+            "keyToUpdate": "arrivalTime",
+            "updatedValue": 1687257965887,
+            "stageId": "80dc96b3-c2ba-44dc-b4bd-d1f28d2a72a9"
+        }
+    ]
+}
+/////////////////////////////////////////////////////////////
+mark gate in payload
+{
+    "shipmentId": "6ba4506d-18e5-42d7-a9a8-651296c00a80",
+    "updates": [
+        {
+            "keyToUpdate": "gateInTime",
+            "updatedValue": 1687258048396,
+            "stageId": "80dc96b3-c2ba-44dc-b4bd-d1f28d2a72a9"
+        }
+    ]
+}
+///////////////////////////////////////////////////
+mark departure payload
+{
+    "shipmentId": "6ba4506d-18e5-42d7-a9a8-651296c00a80",
+    "updates": [
+        {
+            "keyToUpdate": "departureTime",
+            "updatedValue": 1687258089898,
+            "stageId": "80dc96b3-c2ba-44dc-b4bd-d1f28d2a72a9"
+        }
+    ]
+}
+///////////////////////////////////////
+eod mark arrived{
+    "shipmentId": "6ba4506d-18e5-42d7-a9a8-651296c00a80",
+    "updates": [
+        {
+            "keyToUpdate": "arrivalTime",
+            "updatedValue": 1687258155767,
+            "stageId": "410cef6d-39a7-47f9-b3f6-30515afec29c"
+        }
+    ]
+}
+///////////////////////////////
+eod mark departure
+{
+    "shipmentId": "6ba4506d-18e5-42d7-a9a8-651296c00a80",
+    "updates": [
+        {
+            "keyToUpdate": "departureTime",
+            "updatedValue": 1687258194959,
+            "stageId": "410cef6d-39a7-47f9-b3f6-30515afec29c",
+            "markComplete": false
+        }
+    ]
+}
+/////////////////////////////////////////////////
+shipment completed
+{
+    "shipmentId": "6ba4506d-18e5-42d7-a9a8-651296c00a80",
+    "updates": [
+		{
+            "keyToUpdate": "arrivalTime",
+            "updatedValue": 1687258155767,
+            "stageId": "410cef6d-39a7-47f9-b3f6-30515afec29c"
+        },
+		{
+            "keyToUpdate": "departureTime",
+            "updatedValue": 1687258194959,
+            "stageId": "410cef6d-39a7-47f9-b3f6-30515afec29c",
+			"markComplete": true
+        }
+    ]
+}
+///////////
+
+        for (let i = 0; i < shipmentStages.length; i++) {
+            const stage = shipmentStages[i];
+
+			 if (!stage.arrivalTime) {
+                stage.arrivalTime = currentTime;
+            }
+        
+            if (!stage.departureTime) {
+                const nextTime = currentTime + (i + 1) * 1000;
+                stage.departureTime = nextTime;
+            }
+        
+            shipmentPayload.updates.push({
+                keyToUpdate: "arrivalTime",
+                updatedValue: stage.arrivalTime,
+                stageId: stage.uuid
+            });
+            shipmentPayload.updates.push({
+                keyToUpdate: "departureTime",
+                updatedValue: stage.departureTime,
+                stageId: stage.uuid,
+                markComplete: false
+            });
+            shipmentPayload.updates.push({
+                keyToUpdate: "markcomplete",
+                updatedValue: Date.now(),
+                stageId: stage.uuid
+            });
+        }

@@ -1,0 +1,170 @@
+{
+    "shipment": {
+        "shipmentNumber": null,
+        "consignments": [],
+        "shipmentDate": 1687954026580,
+        "shipmentStages": [
+            {
+                "hub": null,
+                "place": null,
+                "actualActivityStartTime": null,
+                "status": null,
+                "tripPoint": {
+                    "purpose": "Pickup"
+                }
+            },
+            {
+                "hub": null,
+                "place": null,
+                "actualActivityStartTime": null,
+                "tripPoint": {
+                    "purpose": "Delivery"
+                },
+                "status": null
+            }
+        ],
+        "fleetInfo": {
+            "device": null,
+            "lbsNumber": null,
+            "trackingMode": "MANUAL",
+            "vehicle": {
+                "vtsDeviceId": null,
+                "kmDriven": null,
+                "attachedDocs": [],
+                "customFields": [],
+                "floorType": null,
+                "source": "FRETRON",
+                "isTrackingEnabled": false,
+                "updates": null,
+                "branch": null,
+                "uuid": null,
+                "orgId": null,
+                "associatedWith": null,
+                "isDeleted": null,
+                "customerId": null,
+                "vehicleModel": null,
+                "mileageEmpty": null,
+                "mileageLoaded": null,
+                "vehicleType": null,
+                "groups": [],
+                "externalId": null,
+                "updateTime": null,
+                "sharedWith": [],
+                "vehicleMake": null,
+                "vehicleRegistrationNumber": "HP10D0666",
+                "chassisNumber": null,
+                "driverId": null,
+                "createTime": null,
+                "loadCapacity": null,
+                "truckLength": null,
+                "category": null,
+                "groupsExtended": null
+            },
+            "driver": null,
+            "fleetOwner": null,
+            "fleetType": "Owned",
+            "forwardingAgent": {
+                "address": "{\"address\":\",rajan store,Undefined Minor Road,Karunagappally,Kollam,Kerala,690574,India,in\",\"city\":null,\"state\":null,\"pincode\":null}",
+                "customFields": [
+                    {
+                        "fieldKey": "bidRemainingV2",
+                        "value": "1"
+                    },
+                    {
+                        "fieldKey": "bidSubmittedV2",
+                        "value": "0"
+                    },
+                    {
+                        "fieldKey": "minRemainingTimeV2",
+                        "value": "1674028840977"
+                    },
+                    {
+                        "fieldKey": "totalAuctionsV2",
+                        "value": "1"
+                    },
+                    {
+                        "fieldKey": "criticalOrderV2",
+                        "value": "0"
+                    },
+                    {
+                        "fieldKey": "live-auctions",
+                        "value": "0"
+                    },
+                    {
+                        "fieldKey": "live-bids-pending",
+                        "value": "0"
+                    }
+                ],
+                "isPortalEnabled": false,
+                "externalId": null,
+                "panNumber": "CCBPJ7538R",
+                "type": "vendor",
+                "uuid": "928a78b7-6063-4b2f-81fe-2dd315540247",
+                "parentId": null,
+                "places": [
+                    {
+                        "center": {
+                            "latitude": 9.0992543,
+                            "longitude": 76.5996321
+                        },
+                        "centerCoordinates": [
+                            76.5996321,
+                            9.0992543
+                        ],
+                        "placeId": "N7081788413",
+                        "name": "rajan store",
+                        "externalId": null,
+                        "category": null
+                    }
+                ],
+                "gstn": "123456789009876",
+                "name": "karan mishra ",
+                "contacts": [
+                    {
+                        "emails": [
+                            ""
+                        ],
+                        "address": null,
+                        "mobileNumbers": [],
+                        "mobileNumber": null,
+                        "name": "karan mishra ",
+                        "type": null
+                    }
+                ],
+                "group": {
+                    "name": "lorryOwner"
+                },
+                "status": "ACTIVE"
+            }
+        },
+        "edd": null,
+        "shipmentStatus": "Planned",
+        "transportationMode": "ByRoad",
+        "shipmentType": "DirectLeg",
+        "customFields": [
+            {
+                "indexedValue": [],
+                "fieldKey": "Owner Verification Status",
+                "multiple": false,
+                "description": "",
+                "remark": "",
+                "uuid": null,
+                "required": false,
+                "accessType": null,
+                "input": "string",
+                "unit": "",
+                "valueType": "string",
+                "options": [
+                    "Matched",
+                    "Mismatched"
+                ],
+                "fieldType": "select",
+                "value": null,
+                "isRemark": false
+            }
+        ],
+        "uuid": null,
+        "branch": null
+    },
+    "consignments": []
+}

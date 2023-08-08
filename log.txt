@@ -1,1 +1,89 @@
-console.log(JSON.parse(`{"shipmentNumber" : "${shNo}"}`))
+for (let i = 0; i < 5; i++) {
+  let shipment = {
+    shipmentDate: "2023-06-12",
+    consignments: [
+      {
+        uuid: `consignment-${i + 1}`,
+        consignee: {
+          externalId: `consignee-${i + 1}`
+        }
+      }
+    ]
+  };
+
+  shipments.push(shipment);
+}
+
+/////////////////////
+for (let i = 0; i < 5; i++) {
+      await createShipment(payload, TOKEN);
+}
+///////////////////////////////////////////////////////////////////////////
+// Assuming the payload is already defined
+
+let shipments = [];
+
+for (let i = 0; i < 5; i++) {
+  let shipment = JSON.parse(JSON.stringify(payload.shipment));
+
+  shipment.shipmentNumber = `SHIP-${i + 1}`;
+
+  // Optionally, update other properties of the shipment
+  shipment.shipmentDate = Date.now();
+
+  // Add the consignments to the shipment if needed
+  // shipment.consignments = [...payload.consignments];
+
+  shipments.push(shipment);
+}
+
+console.log(shipments);
+////////////////////////////////////////////////////////////////////
+https://apis.fretron.com/places/v1/places?name=${encodeURIComponent(name)}
+//////////////////////////////////////////////////////////////////////////
+
+async function fetchFleetInfo() {
+    const fleetOwnerUrl = "https://example.com/api/fleet-owner";
+    const forwardingAgentUrl = "https://example.com/api/forwarding-agent";
+
+    try {
+        const fleetOwnerResponse = await fetch(fleetOwnerUrl, {
+            method: "GET",
+            headers: {
+                Authorization: TOKEN,
+                "Content-Type": "application/json"
+            }
+        });
+
+        const forwardingAgentResponse = await fetch(forwardingAgentUrl, {
+            method: "GET",
+            headers: {
+                Authorization: TOKEN,
+                "Content-Type": "application/json"
+            }
+        });
+
+        if (fleetOwnerResponse.ok && forwardingAgentResponse.ok) {
+            const fleetOwner = await fleetOwnerResponse.json();
+            const forwardingAgent = await forwardingAgentResponse.json();
+            return {
+                fleetOwner,
+                forwardingAgent
+            };
+        } else {
+            console.log(`Error fetching fleet info: ${fleetOwnerResponse.status} - ${fleetOwnerResponse.statusText}`);
+            return null;
+        }
+    } catch (error) {
+        console.log(`Error fetching fleet info: ${error.message}`);
+        return null;
+    }
+}
+
+// Usage:
+const fleetInfo = await fetchFleetInfo();
+if (fleetInfo) {
+    const fleetOwner = fleetInfo.fleetOwner;
+    const forwardingAgent = fleetInfo.forwardingAgent;
+    // Use the fleetOwner and forwardingAgent objects as needed
+}
